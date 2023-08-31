@@ -1,0 +1,100 @@
+body{
+    font-family: 'Roboto','Raleway' sans-serif;
+    font-weight: 400;
+    color:#434455;
+    font-size:16px;
+    line-height:150%;
+
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    color: #FFFFFF
+}
+h2{
+    font-family:'Roboto',sans-serif;
+    font-weight: 700;
+    color: #2E2F42;
+}
+
+h3{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #2E2F42;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+.menu .navigation {
+    color: black;
+    font-weight: 500;
+}
+
+.kontakt-information .address {
+    color: black;
+}
+
+.menu .navigation:hover,
+.menu .navigation:focus {
+    color: #404BBF;
+}
+
+.kontakt-information .address:hover,
+.kontakt-information .address:focus {
+    color: #404BBF;
+}
+
+.logotype{
+    font-family: 'Raleway', sans-serif;
+    font-size:24px;
+    
+}
+
+.logotype-color-blue{
+    color: #4D5AE5;
+}
+
+.logotype-color-white{
+    color: #F4F4FD
+}
+
+.logotype-color-black{
+    color: #2E2F42;
+}
+
+.section-one{
+    background-color: #2E2F42;
+    color: #FFFFFF
+}
+
+.section-one-button{
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.section-one-button:hover,
+.section-one-button:focus{
+    background-color: #404BBF;
+}
+
+.section-our-team{
+    background-color: #F4F4FD;
+}
+
+footer{
+    background-color: #2E2F42;
+}
+
+.text-color-footer{
+    color: #F4F4FD;
+}
