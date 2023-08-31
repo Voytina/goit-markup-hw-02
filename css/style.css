@@ -1,100 +1,180 @@
 body{
-    font-family: 'Roboto','Raleway' sans-serif;
-    font-weight: 400;
-    color:#434455;
-    font-size:16px;
-    line-height:150%;
-
-}
-
-h1{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 56px;
-    color: #FFFFFF
-}
-h2{
     font-family:'Roboto',sans-serif;
-    font-weight: 700;
-    color: #2E2F42;
+    font-size:16px;
+    background-color:#FFFFFF ;
+    font-weight: 400;
+    line-height: 150%;
+    color:#434455;
+
 }
 
-h3{
-    font-family: 'Roboto',sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    color: #2E2F42;
-}
-
-a{
+a {
     text-decoration: none;
 }
 
-li{
+li {
     list-style-type: none;
 }
 
-.menu .navigation {
-    color: black;
-    font-weight: 500;
+.logotype-header{
+    font-family:'Raleway',sans-serif;
+    font-weight: 700;
+    font-size:18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:#4D5AE5
 }
 
-.kontakt-information .address {
-    color: black;
-}
-
-.menu .navigation:hover,
-.menu .navigation:focus {
-    color: #404BBF;
-}
-
-.kontakt-information .address:hover,
-.kontakt-information .address:focus {
-    color: #404BBF;
-}
-
-.logotype{
-    font-family: 'Raleway', sans-serif;
-    font-size:24px;
-    
-}
-
-.logotype-color-blue{
-    color: #4D5AE5;
-}
-
-.logotype-color-white{
-    color: #F4F4FD
-}
-
-.logotype-color-black{
+.logotype-header  span{
     color: #2E2F42;
 }
 
-.section-one{
-    background-color: #2E2F42;
-    color: #FFFFFF
+.navigation{
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing:0.02em;
+    color:#2E2F42;
 }
 
-.section-one-button{
-    background-color: #4D5AE5;
+.menu .navigation:hover,
+.menu .navigation:focus{
+    color:#404BBF;
+}
+
+.adress-style{
+    
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#434455
+}
+
+.contact-information .adress-style:hover,
+.contact-information .adress-style:focus{
+
+    color: #404BBF;
+
+}
+
+.section-effective{
+    background-color:#2E2F42 ;
+}
+
+h1{
+    color:#FFFFFF;
+    font-weight: 700;
+    font-size:56px;
+    line-height:1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+
+
+}
+
+.button-section-effective{
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background-color:#4D5AE5 ;
     color: #FFFFFF;
     cursor: pointer;
 }
 
-.section-one-button:hover,
-.section-one-button:focus{
+.section-effective .button-section-effective:hover,
+.section-effective .button-section-effective:focus{
     background-color: #404BBF;
 }
 
-.section-our-team{
+
+.benefits{
+    font-weight: 500;
+    font-size: 20px;
+    line-height:1.2;
+    letter-spacing: 0.02em;
+    color:#2E2F42;
+}
+
+.benefits-text{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#434455;
+}
+
+.main-title-ourteam{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2E2F42;
+    text-transform: capitalize;
+}
+.section-ourteam{
     background-color: #F4F4FD;
 }
 
-footer{
-    background-color: #2E2F42;
+.title-ourteam{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color:#2E2F42 ;
+
 }
 
-.text-color-footer{
+.text-ourteam{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color:#434455 ;
+}
+
+.mane-title-portfolio{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+.title-portfolio{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:#2E2F42
+
+}
+
+.text-portfolio{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.footer-style{
+    background-color: #2E2F42;
+
+}
+
+.footer-text{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#F4F4FD ;
+
+}
+
+.logotype-footer{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5
+}
+
+.logotype-footer span{
     color: #F4F4FD;
 }
