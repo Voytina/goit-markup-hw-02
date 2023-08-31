@@ -49,6 +49,10 @@ li {
     color:#434455
 }
 
+.contact-information{
+    font-style: normal;
+}
+
 .contact-information .adress-style:hover,
 .contact-information .adress-style:focus{
 
@@ -60,7 +64,7 @@ li {
     background-color:#2E2F42 ;
 }
 
-h1{
+.title-effective{
     color:#FFFFFF;
     font-weight: 700;
     font-size:56px;
@@ -108,6 +112,7 @@ h1{
     text-align: center;
     color: #2E2F42;
     text-transform: capitalize;
+    background-color:#FFFFFF beige;
 }
 .section-ourteam{
     background-color: #F4F4FD;
@@ -175,6 +180,6 @@ h1{
     color: #4D5AE5
 }
 
-.logotype-footer span{
-    color: #F4F4FD;
+.logotype-footer .footer-span-logotype{
+    color:#F4F4FD ;
 }
